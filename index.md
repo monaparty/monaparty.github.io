@@ -22,7 +22,8 @@ Monaparty の初期開発費用を調達するため、我々は Counterparty �
 期間 | 2017年6月30日まで
 ICO 用トークン名 | MONAPARTY
 数量 | 100枚
-調達目標額 | 1,000 XCP	
+調達目標額 | 1,000 XCP
+交換場所 | Counterparty DEX
 調達資金の使徒 | Counterparty Federated Node に相当する機能の Monacoin への対応
 
 ### ICO に関する FAQ
