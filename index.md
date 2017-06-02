@@ -1,5 +1,3 @@
-# We'll provide Token Economies to Monacoin Community
-
 我々は、Monacoin のブロックチェーンを用いたトークン経済圏を整備します。
 トークンの価値記録システムとして、Bitcoin ブロックチェーンを用いた Counterparty を応用します。
 我々は、新しく整備するトークン経済圏を `Monaparty` と呼びます。
