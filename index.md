@@ -1,3 +1,53 @@
-## Comming soon
+# We'll provide Token Economies to Monacoin Community
 
-Under construction...
+我々は、Monacoin のブロックチェーンを用いたトークン経済圏を整備します。
+トークンの価値記録システムとして、Bitcoin ブロックチェーンを用いた Counterparty を応用します。
+我々は、新しく整備するトークン経済圏を `Monaparty` と呼びます。
+
+## トークン生成の計画
+
+Monaparty の技術的支柱となる Counterparty では、Proof of Burn と呼ばれる民主的な方法で基軸トークンとなる XCP が生成されました。
+Monaparty では、トークン配布による ICO と Proof of Burn のハイブリッドで基軸トークンとなる MNPX を生成する予定です。
+
+Monaparty では、初回の Burn のみ、2回目以降の Burn とは異なったレートで MNPX を生成します。
+初回の Burn で生成された MNPX は、ICO に応じた初期投資者への配当として、投資比率に応じて分配されます。
+
+## ICO
+
+Monaparty の初期開発費用を調達するため、我々は Counterparty トークン `MONAPARTY` と Counterparty の分散取引所システム(DEX)を用いた ICO (Initial Coin Offering == 暗号通貨を用いた資金調達)を実施します。
+
+項目 | | 
+----- | -----
+期間 | 2017年6月30日まで
+ICO 用トークン名 | MONAPARTY
+数量 | 100枚
+調達目標額 | 1,000 XCP	
+調達資金の使徒 | Counterparty Federated Node に相当する機能の Monacoin への対応
+
+### ICO に関する FAQ
+
+#### [Q] ICO の元本は保証されますか?
+
+[A] ICO は、日本の法令上、出資に相当するとの認識でおります。よって、元本の保証は致しかねます。(元本保証は出資法に抵触)
+
+もちろん実現に向け最大限の努力はいたします。
+
+#### [Q] ICO は資金決済法に抵触しませんか?
+
+[A] 資金決済法の運用が「個別事例ごとに実態に即して実質的に判断するべきである」とのことで最終的には行政判断に委ねなければならない部分があります。
+しかしながら、下記の理由で今回の ICO は資金決済法に抵触はしないものと認識しております。
+
+* ICO によるトークンの配布が前払式支払手段であると判断された場合でも、第三者の使用を想定しておらず総発行額(未使用残高)が1,000万円を超えないので、前払式支払手段発行業には該当いたしません。
+* 初回 Burn による ICO への配当を行う際に、`MONAPARTY` から `MNPX` への両替を実施いたします。この両替は `MONAPARTY` の発行トークン数を超えて行われることはありえませんので継続性はなく、「仮想通貨交換業」が「業」として求める反復継続性を満たしません。
+
+##### 参考
+https://www.s-kessai.jp/businesses/prepaid_means_overview.html
+
+#### [Q] ICO に参加しなくても 2回目以降の Burn には参加できますか?
+
+[A] できるようにする予定です。
+
+#### [Q] この FAQ に書いていない疑問があります
+
+[Githubのissue](https://github.com/monaparty/monaparty.github.io/issues/new)で質問してください。
+issue に書いた内容は広く公開されます。個人情報に直結するような内容は書かないようお願いします。
