@@ -20,7 +20,7 @@ Monaparty の初期開発費用を調達するため、我々は Counterparty �
 項目 | | 
 ----- | -----
 期間 | 2017年6月30日まで
-ICO 用トークン名 | MONAPARTY
+ICO 用トークン名 | [MONAPARTY](https://xchain.io/asset/MONAPARTY)
 数量 | 100枚
 調達目標額 | 1,000 XCP
 交換場所 | Counterparty DEX
