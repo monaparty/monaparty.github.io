@@ -49,6 +49,30 @@ https://www.s-kessai.jp/businesses/prepaid_means_overview.html
 
 [A] できるようにする予定です。
 
+#### [Q] 2回目以降の Burn でのレートは?
+
+[A] 1 MONA → 1000 MNPX を予定しています。
+
+#### [Q] ICO 終了後に余った MONAPARTY トークンはどうなりますか?
+
+[A] 秘密鍵が不明の Bitcoin アドレス (1MonapartyMMMMMMMMMMMMMMMMMQ3QJNm を予定)に送金され、再利用不可となります。
+この送金により、ICO による調達額と、初回 Burn 時の XMNP トークンの価値総額が等しくなることが保証されます。
+
+#### [Q] MNPX トークンへ両替された MONAPARTY トークンはどうなりますか?
+
+[A] 秘密鍵が不明の Bitcoin アドレス (1MonapartyMMMMMMMMMMMMMMMMMQ3QJNm を予定)に送金され、再利用不可となります。
+この送金により、`MONAPARTY` を用いた `MNPX` の Burn が擬似的に実現されます。
+
+#### [Q] MONAPARTY トークンと MNPX トークンとの交換比率を事前に知ることはできますか?
+
+[A] 以下の事情により、ICO 中の現時点ではお知らせできません。
+
+* 元本および法定の割合を超えるリターンの保証は、出資法違反に問われる可能性があります。
+* `MONAPARTY` の価値基準となる `XCP`、`MNPX` の価値基準となる `MONA` は、ともに日本円に対し変動相場を持っているため、事前に比率を定めてしまうと出資額の元本割れを起こす可能性があります。
+ * 開発チームは ICO に応じていただいた方々への元本保証は行いません。しかし、元本割れリスクは、合法的に防げる範囲で避けたいと考えています。
+
+しかしながら、2回目以降のバーンレートと比して有利な交換比率とする予定でおります。
+
 #### [Q] この FAQ に書いていない疑問があります
 
 [Githubのissue](https://github.com/monaparty/monaparty.github.io/issues/new)で質問してください。
