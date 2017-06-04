@@ -61,7 +61,7 @@ https://www.s-kessai.jp/businesses/prepaid_means_overview.html
 #### [Q] MNPX トークンへ両替された MONAPARTY トークンはどうなりますか?
 
 [A] 秘密鍵が不明の Bitcoin アドレス (1MonapartyMMMMMMMMMMMMMMMMMQ3QJNm を予定)に送金され、再利用不可となります。
-この送金により、`MONAPARTY` を用いた `MNPX` の Burn が擬似的に実現されます。
+この送金により、`MONAPARTY` を用いた `MNPX` への Burn が擬似的に実現されます。
 
 #### [Q] MONAPARTY トークンと MNPX トークンとの交換比率を事前に知ることはできますか?
 
