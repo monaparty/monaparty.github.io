@@ -13,9 +13,9 @@ Monaparty では、トークン配布による ICO と Proof of Burn のハイ�
 Monaparty では、初回の Burn のみ、2回目以降の Burn とは異なったレートで MNPX を生成します。
 初回の Burn で生成された MNPX は、ICO に応じた初期投資者への配当として、投資比率に応じて分配されます。
 
-## ICO
+## ICO (目標額達成いたしました)
 
-Monaparty の初期開発費用を調達するため、我々は Counterparty トークン `MONAPARTY` と Counterparty の分散取引所システム(DEX)を用いた ICO (Initial Coin Offering == 暗号通貨を用いた資金調達)を実施します。
+Monaparty の初期開発費用を調達するため、我々は Counterparty トークン `MONAPARTY` と Counterparty の分散取引所システム(DEX)を用いた ICO (Initial Coin Offering == 暗号通貨を用いた資金調達)を実施いたしました。
 
 項目 | | 
 ----- | -----
