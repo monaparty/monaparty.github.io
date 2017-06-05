@@ -19,7 +19,7 @@ Monaparty の初期開発費用を調達するため、我々は Counterparty �
 
 項目 | | 
 ----- | -----
-期間 | 2017年6月30日まで
+期間 | <del>2017年6月30日まで</del> 到達目標額達成により終了いたしました
 ICO 用トークン名 | [MONAPARTY](https://xchain.io/asset/MONAPARTY)
 数量 | 100枚
 調達目標額 | 1,000 XCP
@@ -58,6 +58,8 @@ https://www.s-kessai.jp/businesses/prepaid_means_overview.html
 [A] 秘密鍵が不明の Bitcoin アドレス (1MonapartyMMMMMMMMMMMMMMMMMQ3QJNm を予定)に送金され、再利用不可となります。
 この送金により、ICO による調達額と、初回 Burn 時の XMNP トークンの価値総額が等しくなることが保証されます。
 
+(Jun 6, 2017 補足: 目標額達成のため、上記アドレスへの MONAPARTY トークン送金は実施中止となりました)
+
 #### [Q] MNPX トークンへ両替された MONAPARTY トークンはどうなりますか?
 
 [A] 秘密鍵が不明の Bitcoin アドレス (1MonapartyMMMMMMMMMMMMMMMMMQ3QJNm を予定)に送金され、再利用不可となります。
@@ -72,6 +74,13 @@ https://www.s-kessai.jp/businesses/prepaid_means_overview.html
  * 開発チームは ICO に応じていただいた方々への元本保証は行いません。しかし、元本割れリスクは、合法的に防げる範囲で避けたいと考えています。
 
 しかしながら、2回目以降のバーンレートと比して有利な交換比率とする予定でおります。
+
+#### [Q] 保有した MONAPARTY トークンを譲渡しても構いませんか
+
+[A] はい。
+
+予定されている MONAPARTY から MNPX への交換は、ICO に応じてくださったアドレスに対してではなく、交換時点で MONAPARTY トークンを所有なさっているアドレスに対して行います。
+交換までの間に DEX 等で取引をなさる場合、初回Burnでのプレミアムの期待値から乖離するような高値付けにならないよう冷静にお願いいたします。
 
 #### [Q] この FAQ に書いていない疑問があります
 
