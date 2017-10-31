@@ -60,12 +60,12 @@ https://www.s-kessai.jp/businesses/prepaid_means_overview.html
 
 (Jun 6, 2017 補足: 目標額達成のため、上記アドレスへの `MONAPARTY` トークン送金は実施中止となりました)
 
-#### [Q] MNPX トークンへ両替された MONAPARTY トークンはどうなりますか?
+#### [Q] XMP トークンへ両替された MONAPARTY トークンはどうなりますか?
 
 [A] 秘密鍵が不明の Bitcoin アドレス (1MonapartyMMMMMMMMMMMMMMMMMQ3QJNm を予定)に送金され、再利用不可となります。
 この送金により、`MONAPARTY` を用いた `XMP` への Burn が擬似的に実現されます。
 
-#### [Q] MONAPARTY トークンと MNPX トークンとの交換比率を事前に知ることはできますか?
+#### [Q] MONAPARTY トークンと XMP トークンとの交換比率を事前に知ることはできますか?
 
 [A] 以下の事情により、ICO 中の現時点ではお知らせできません。
 
@@ -81,6 +81,17 @@ https://www.s-kessai.jp/businesses/prepaid_means_overview.html
 
 予定されている `MONAPARTY` から `XMP` への交換は、ICO に応じてくださったアドレスに対してではなく、交換時点で `MONAPARTY` トークンを所有なさっているアドレスに対して行います。
 交換までの間に DEX 等で取引をなさる場合、初回Burnでのプレミアムの期待値から乖離するような高値付けにならないよう冷静にお願いいたします。
+
+#### [Q] XMNP (MNPX) トークンと XMP トークンの関係は?
+
+Counterparty での `XCP` トークンに対応する基軸トークンの名称として、Monaparty の計画初期段階では `XMNP` や `MNPX` が仮称として使われていました。
+現在は `XMP` トークンを名称として用いるという結論となっています。
+
+#### [Q] XMP と Primecoin との関係は？
+
+海外の一部暗号通貨取引所で、暗号通貨 Primecoin の略称を XMP としている場合があります。
+Monaparty の `XMP` トークンとは名前が重複している以外の関係はありません。
+Primecoin の取引をなさっても `XMP` トークンの取得はできませんのでご注意ください。
 
 #### [Q] この FAQ に書いていない疑問があります
 
