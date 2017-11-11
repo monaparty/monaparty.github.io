@@ -36,7 +36,7 @@ Monaparty の運用開始に伴い、下記の予定で Proof Of Burn を実施�
 ### 生成量の例外
 
 期間前後に ICO 参加者への配布用として Monaparty 開発チームから 1MONA が Burn されます。
-このBurnは前掲の生成量算出式とは異なる式に定数 46061.5384615 を乗じた XMP が生成されます。
+このBurnは前掲の生成量算出式に定数 46061.5384615 を乗じた XMP が生成されます。
 この定数の根拠については [MONAPARTY → XMP トークンスワップについて](https://www.monaparty.me/token-swap) をご参照ください。
 
 ### 生成総量
