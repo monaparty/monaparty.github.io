@@ -24,7 +24,7 @@ Monaparty の運用開始に伴い、下記の予定で Proof Of Burn を実施�
 具体的には、Burn メッセージを含むトランザクションが採り込まれたブロック番号を `x`、Burn した MONA の数量を `y` とするとき、下記の式で決定されます。
 
 ```
-   得られるXMPの量 = (1000 + (500 × ((x - 1166000) ÷ (1179440 - 1166000)))) × y
+   得られるXMPの量 = (1000 + (500 × ((1179440 - x) ÷ (1179440 - 1166000)))) × y
 ```
 
 簡易に要約すると下記のようになります。
@@ -35,8 +35,8 @@ Monaparty の運用開始に伴い、下記の予定で Proof Of Burn を実施�
 
 ### 生成量の例外
 
-期間前後に ICO 参加者への配布用として Monaparty 開発チームから 1MONA が Burn されます。
-このBurnは前掲の生成量算出式に定数 46061.5384615 を乗じた XMP が生成されます。
+期間前に ICO 参加者への配布用として Monaparty 開発チームから 1MONA が Burn されました。
+このBurnからは、前掲の生成量算出式に定数 1820.21381538 を乗じた XMP が生成されます。
 この定数の根拠については [MONAPARTY → XMP トークンスワップについて](https://www.monaparty.me/token-swap) をご参照ください。
 
 ### 生成総量
@@ -58,3 +58,8 @@ Monaparty を管理するサーバがダウンした場合でも、Burn の開�
 ## さらに不明な点がある場合
 
 [公式 Twitter アカウント](https://twitter.com/MonapartyXMP) にメッセージを頂ければ幸いです。
+
+## 改版について
+
+
+本ドキュメントの変更履歴は、 [GitHub](https://github.com/monaparty/monaparty.github.io/commits/master/burn-event.md) でご覧いただけます。
