@@ -1,0 +1,3 @@
+[submodule "themes/timer-hugo"]
+	path = themes/timer-hugo
+	url = https://github.com/themefisher/timer-hugo.git
