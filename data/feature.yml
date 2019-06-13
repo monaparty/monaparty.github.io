@@ -3,37 +3,43 @@ title   : Community Products
 subtitle: >
   This is the list of community products that supports Monaparty. Monaparty project beileves they works well. But please keep in mind they are crypto-currency related products. Please don't just trust, verify. 
 item    :
-  - icon  : ion-ios-flask-outline
+  - icon  : ion-ios-list-box-outline
     title : Mpchain
     link: https://mpchain.info
     description : >
       The blockchain explorer for Monaparty.
 
-  - icon  : ion-ios-lightbulb-outline
+  - icon  : ion-ios-cash-outline
     title : Mpurse
     link: https://github.com/tadajam/mpurse
     description : >
       The wallet as a web-browser extension.
 
-  - icon  : ion-ios-lightbulb-outline
-    title : Monacard
-    link: https://card.mona.jp/
-    description : >
-      The bridge between images and Monaparty assets.
-
-  - icon  : ion-ios-lightbulb-outline
+  - icon  : ion-ios-cash-outline
     title : Monya
     link: https://monya-wallet.github.io/index_en.html
     description : >
       The all-in-one crypto currency wallet that support Monacard.
 
-  - icon  : ion-ios-lightbulb-outline
+  - icon  : ion-ios-cash-outline
+    title : Monapallete
+    link: https://monapalette.komikikaku.com/
+    description : >
+      The web wallet for Monacoin / Monaparty.
+
+  - icon  : ion-ios-album-outline
+    title : Monacard
+    link: https://card.mona.jp/
+    description : >
+      The bridge between images and Monaparty assets.
+
+  - icon  : ion-ios-album-outline
     title : Monapachan
     link: https://twitter.com/monapachan?lang=en
     description : >
       The twitter bot that helps Monacard distribution.
   
-  - icon  : ion-ios-lightbulb-outline
+  - icon  : ion-ios-album-outline
     title : Monapachan portal
     link: https://monapachan.komikikaku.com/
     description : >
