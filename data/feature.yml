@@ -50,3 +50,10 @@ item    :
     link: https://spacemona.komikikaku.com/
     description : >
       The game DApp. Token based game like Cookie-clicker.
+
+  - icon  : ion-ios-flask
+    title : Token Battle
+    link: http://blog.utyuu.space/tokenbattle_in/
+    description : >
+      The simple card battle game. (test version)
+
