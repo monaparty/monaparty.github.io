@@ -56,9 +56,15 @@ item    :
     link: http://blog.utyuu.space/tokenbattle_in/
     description : >
       The simple card battle game. (test version)
-  - icon  : ion-ios-flask
+
+- icon  : ion-ios-flask
     title : Monanosu
     link: https://monanosu.kotaroo.work/
     description : >
       Raise our Mona!
 
+- icon  : ion-ios-checkmark-circle
+    title : Monaquiz
+    link: https://summerm.net/monaquiz/
+    description : >
+      Check your knowledge of Monacoin.
