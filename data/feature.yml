@@ -27,6 +27,12 @@ item    :
     description : >
       The web wallet for Monacoin / Monaparty.
 
+  - icon  : ion-ios-wallet
+    title : Mpurse ext
+    link: https://mpurse-extension.komikikaku.com/
+    descritpion: >
+      Wallet, DEX, Message board. Powered by Monapallete.
+ 
   - icon  : ion-ios-images
     title : Monacard
     link: https://card.mona.jp/
@@ -57,13 +63,13 @@ item    :
     description : >
       The simple card battle game. (test version)
 
-- icon  : ion-ios-flask
+  - icon  : ion-ios-flask
     title : Monanosu
     link: https://monanosu.kotaroo.work/
     description : >
       Raise our Mona!
 
-- icon  : ion-ios-checkmark-circle
+  - icon  : ion-ios-checkmark-circle
     title : Monaquiz
     link: https://summerm.net/monaquiz/
     description : >
