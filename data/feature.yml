@@ -30,7 +30,7 @@ item    :
   - icon  : ion-ios-wallet
     title : Mpurse ext
     link: https://mpurse-extension.komikikaku.com/
-    descritpion: >
+    description: >
       Wallet, DEX, Message board. Powered by Monapallete.
  
   - icon  : ion-ios-images
