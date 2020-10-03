@@ -12,18 +12,18 @@ theme = "timer-hugo"
 #        name    = "About"
 #        url     = "/about"
 #        weight  = 2
-#    [[menu.nav]]
-#        name    = "Service"
-#        url     = "/service"
-#        weight  = 3
+    [[menu.nav]]
+        name    = "Service Nodes"
+        url     = "/service"
+        weight  = 3
 #    [[menu.nav]]
 #        name    = "Gallery"
 #        url     = "/gallery"
 #        weight  = 4
-#    [[menu.nav]]
-#        name    = "Blog"
-#        url     = "/blog"
-#        weight  = 5
+    [[menu.nav]]
+        name    = "Blog"
+        url     = "/blog"
+        weight  = 5
 #    [[menu.nav]]
 #        name    = "Contact"
 #        url     = "/contact"
@@ -35,7 +35,7 @@ theme = "timer-hugo"
     logo = "images/logo.png"
     dateFormat = "6 January 2006"
     # Meta data
-    description = "Airspace Hugo theme"
+    description = "Monaparty crypto-assets platform"
     author = "Themefisher"
     # Google Analitycs
     googleAnalitycsID = "UA-52736825-3"
