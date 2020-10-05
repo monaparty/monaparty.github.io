@@ -49,7 +49,7 @@ So there will be some differences between your configuration and official's.
 
 Please fix them.
 
-You may use `for i in config/*/*.default; do cp $i $i/$(basename $i .default); done` if you see it.
+You may use `for i in config/*/*.default; do cp $i $(dirname $i)/$(basename $i .default); done` if you see it.
 
 ## Install new nodes.
 
