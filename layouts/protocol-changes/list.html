@@ -1,0 +1,44 @@
+{{ partial "header.html" . }}
+
+{{ partial "page-title.html" . }}
+
+{{ $changes := getJSON "https://raw.githubusercontent.com/monaparty/counterparty-lib/monaparty-develop/counterpartylib/protocol_changes.json" }}
+
+<section id="protocol_changes" class="gallery">
+    <div class="container">
+        <table class="table table-striped table-bordered">
+            <thead>
+                <tr>
+                    <th>Change</th>
+                    <th>Activate Block (Mainnet)</th>
+                    <th>Activate Block (Testnet)</th>
+                    <th>Node version</th>
+                </tr>
+            </thead>
+            <tbody>
+                {{ range $key, $value := $changes }}
+                <tr>
+                    <td>
+                        {{ replace $key "_" " " }}
+                    </td>
+                        {{ with $value }}
+                    <td class="text-right">
+                        {{ .block_index | printf "%.0f" }}
+                    </td>
+                    <td class="text-right">
+                        {{ .testnet_block_index }}
+                    </td>
+                    <td>
+                        {{ .minimum_version_major }}.{{ .minimum_version_minor }}.{{ .minimum_version_revision }}
+                    </td>
+                        {{ end }}
+                </tr>
+                {{ end }}
+            </tbody>
+        </table>
+    </div>
+</section>
+
+{{ partial "cta.html" . }}
+
+{{ partial "footer.html" . }}

@@ -16,6 +16,10 @@ theme = "timer-hugo"
         name    = "Service Nodes"
         url     = "/service"
         weight  = 3
+    [[menu.nav]]
+        name    = "Protocol Changes"
+        url     = "/protocol-changes"
+        weight  = 4
 #    [[menu.nav]]
 #        name    = "Gallery"
 #        url     = "/gallery"
