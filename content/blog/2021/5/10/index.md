@@ -1,7 +1,9 @@
 ---
-title: "Release train 2323232"
+title: "Release train 2323232 on boarding"
 date: 2021-05-05T01:37:48Z
 ---
+
+> NOTE: Some features are postponed. Please read https://www.monaparty.me/blog/2021/5/11/ for more details.
 
 Dear Monaparty funs,
 
@@ -18,13 +20,13 @@ And `fungible` flag is added to the issuance message.
 
 `asset_group` is a similar to the child part of `asset_longname` and bound to assets issued with `not fungible` flag.
 
-## Trigger message
+## ~~Trigger message~~
 
-The new object `trigger` is added.
+~~The new object `trigger` is added.~~
 
-It is a generalized `cancel`. `trigger` message can contain `payload` binary in addition to `target_hash` (like `offer_hash` on `cancel` message).
+~~It is a generalized `cancel`. `trigger` message can contain `payload` binary in addition to `target_hash` (like `offer_hash` on `cancel` message).~~
 
-This will be the important milestone for Monaparty Automation and smart contracts.
+~~This will be the important milestone for Monaparty Automation and smart contracts.~~
 
 ## Asset Metadata
 
