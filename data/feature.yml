@@ -59,6 +59,7 @@ item    :
 
   - icon  : ion-ios-attach
     title : Monabless
+    link: https://monabless.monatrust.com/
     description : >
       An utility that adds some extended atrributes to Monaparty assets.
  
