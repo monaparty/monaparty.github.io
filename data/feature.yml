@@ -57,6 +57,11 @@ item    :
     description : >
       The web image viewer linked to Monapachan Twitter bot.
 
+  - icon  : ion-ios-attach
+    title : Monabless
+    description : >
+      An utility that adds some extended atrributes to Monaparty assets.
+ 
   - icon  : ion-ios-planet
     title : Space Monacoin
     link: https://spacemona.komikikaku.com/
@@ -68,6 +73,11 @@ item    :
     link: http://blog.utyuu.space/tokenbattle_in/
     description : >
       The simple card battle game. (test version)
+
+  - icon  : ion-ios-game-controller-b
+    title : Goh-un Mahjong
+    description : >
+      Mahjong game that Monaparty asset holders get some lucks.
 
   - icon  : ion-ios-flask
     title : Monanosu
