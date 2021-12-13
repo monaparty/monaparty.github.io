@@ -16,9 +16,9 @@ We've published [a Helm chart for the high availability IPFS cluster](https://gi
 Currently it's on a "preview" state. But we hope it will work fine almost all envs.
 
 The chart itself doesn't any pins to impotant content for Monaparty.
-Some some hacks are required.
-We're working to release a Monaparty integration such as Countertable.
+Some more hacks are required.
+We're working to release a Monaparty integration such as [Countertable](https://github.com/monaparty/countertable).
 
-Feel free to send any requests for this project via GitHub.
+Please feel free to send any requests for this new subproject via [GitHub](https://github.com/monaparty/helm-ipfs-cluster/discussions/).
 
-Happy your party time with Monaparty.
+Happy your party-time with Monaparty.
