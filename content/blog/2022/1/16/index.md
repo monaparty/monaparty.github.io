@@ -1,6 +1,6 @@
 ---
 title: "XMPIP-0021 Draft was published"
-date: 2021-01-06T00:00:00+00:00
+date: 2022-01-06T00:00:00+00:00
 tags: [ 'XMPIP', 'development' ]
 ---
 
