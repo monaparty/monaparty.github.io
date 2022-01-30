@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Monaparty Portal | Crypto asset platform based on Counterparty, Monacoin</title><link>https://monaparty.me/</link><description>Recent content on Monaparty Portal | Crypto asset platform based on Counterparty, Monacoin</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 30 Jan 2022 09:29:13 +0000</lastBuildDate><atom:link href="https://monaparty.me/index.xml" rel="self" type="application/rss+xml"/><item><title>Counterparty srever is updated.</title><link>https://monaparty.me/blog/2022/1/19/</link><pubDate>Sun, 30 Jan 2022 09:29:13 +0000</pubDate><guid>https://monaparty.me/blog/2022/1/19/</guid><description>Dear Monaparty node runners,
+Counterpary-server for Monaparty was upgraded to 9.5812.0.
+This upgrade contains only an API refinement and no contract change. So it is not urgent. Please upgrade it if you have a time.
+fednode rebuild and fednode upgrade
+Note that this upgrade requires full DB reparse. So it requires an hour or more to finish your node healthy.
+Thank node runners a lot for supporting Monaparty.</description></item><item><title>XMPIP-0021 coming.</title><link>https://monaparty.me/blog/2022/1/18/</link><pubDate>Wed, 12 Jan 2022 13:16:21 +0000</pubDate><guid>https://monaparty.me/blog/2022/1/18/</guid><description>Hello developers in the Monaparty world,
+Recently XMPIP-0021 (API refinement) was tested on the develop release channel. Code was merged to development branch.
+As some more library dependencies were updated, we apply some more checks if the release is stable. We will apply</description></item><item><title>A simple BLOB store is comming</title><link>https://monaparty.me/blog/2022/1/17/</link><pubDate>Mon, 10 Jan 2022 06:04:48 +0000</pubDate><guid>https://monaparty.me/blog/2022/1/17/</guid><description>Hello developers in the Monaparty world.
+What&amp;rsquo;s &amp;ldquo;binarystore&amp;rdquo; ? We started to study for adding a binary storage to Monaparty chain. we&amp;rsquo;ll provide a way to store your binaries (the recommended size limit is about 10kB).
+The road to &amp;ldquo;Monaparty Automation&amp;rdquo; You will be enable to use this function just as a short storage.
+In addition, it will be used in upcoming &amp;ldquo;Monaparty Automation&amp;rdquo;. Message-templates and Partyscript byte-codes will be stored in the binarystore.</description></item><item><title>XMPIP-0021 Draft was published</title><link>https://monaparty.me/blog/2022/1/16/</link><pubDate>Thu, 06 Jan 2022 00:00:00 +0000</pubDate><guid>https://monaparty.me/blog/2022/1/16/</guid><description>Hello Monaparty folks,
+Cryptcoin Junkey was published new XMPIP-0021. XMPIP is a BIP in Bitcoin. Monaparty is extended by XMPIPs.
+The new API and breaking changes are described in the new XMPIP. We expected to provide more power to web service developers using Monaparty.
+More tables in Counterparty(Monaparty)-server will be exposed to developers after applied this XMPIP. It will become easier to develop new transaction explorers, wallet interfaces, and so on.</description></item><item><title>A Helm chart for IPFS-cluster released</title><link>https://monaparty.me/blog/2021/12/15/</link><pubDate>Sun, 12 Dec 2021 09:32:15 +0000</pubDate><guid>https://monaparty.me/blog/2021/12/15/</guid><description>Hello Monaparty folks,
+We&amp;rsquo;re happy to release new functionariry for the Monaparty eco-system.
+We&amp;rsquo;ve published a Helm chart for the high availability IPFS cluster.
+Currently it&amp;rsquo;s on a &amp;ldquo;preview&amp;rdquo; state. But we hope it will work fine almost all envs.
+The chart itself doesn&amp;rsquo;t any pins to impotant content for Monaparty. Some more hacks are required. We&amp;rsquo;re working to release a Monaparty integration such as Countertable.
+Please feel free to send any requests for this new subproject via GitHub.</description></item><item><title>indexd-server is updated to 0.0.2</title><link>https://monaparty.me/blog/2021/11/14/</link><pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate><guid>https://monaparty.me/blog/2021/11/14/</guid><description>Monaparty version of indexd-server was updated to 0.0.2.
+This includes an usability bug fix.
+https://github.com/monaparty/indexd-server/pull/2
+This was applied both of the develop branch and the master branch.
+For wallet users There is no need to action. Please wait until servers are updated.
+For node maintainers Please upgrade your indexd-servers like this.
+fednode rebuild indexd fednode rebuild indexd-testnet In this time, you don&amp;rsquo;t need to run fednode update.
+There is no reparse job running.</description></item><item><title>Counterblock updated to 1.4.2+mona001</title><link>https://monaparty.me/blog/2021/7/13/</link><pubDate>Sat, 31 Jul 2021 06:28:38 +0000</pubDate><guid>https://monaparty.me/blog/2021/7/13/</guid><description>Hello Monaparty fednode server admins,
+Recently we upgrade our Counterblock-mona 1.4.1+mona001 to 1.4.2+mona001. This have no security fix. It doesn&amp;rsquo;t cause consensus issue. Please upgrade if you have a time by :
+fednode rebuild fednode update Have a happy party!</description></item><item><title>Updated Counterblock server</title><link>https://monaparty.me/blog/2021/7/12/</link><pubDate>Wed, 07 Jul 2021 06:19:02 +0000</pubDate><guid>https://monaparty.me/blog/2021/7/12/</guid><description>Dear Monaparty node runners,
+The counterblock server for Monaparty was bumped to 1.4.1+mona001.
+There have some fixes against TrueNFT related issues in this release. (No security issue but usability improvement)
+Please update by executing CLI.
+fednode rebuild counterblock fednode update counterblock fednode update counterblock-testnet</description></item><item><title>Postpone acitivation for Trigger message (Asset metadata)</title><link>https://monaparty.me/blog/2021/5/11/</link><pubDate>Sat, 08 May 2021 00:00:00 +0000</pubDate><guid>https://monaparty.me/blog/2021/5/11/</guid><description>Dear Monaparty funs,
+We found critical issue by Trigger message on the testnet. So we decided to postpone the activation for Trigger message on the mainnet (and also the testnet). Asset metadata is based on Trigger message. So it is also postponed.
+It will be re-activated on the next release train.
+We aporogize to funs for confusing Monaparty chain. We are going to kaizen our release process.</description></item><item><title>Release train 2323232 on boarding</title><link>https://monaparty.me/blog/2021/5/10/</link><pubDate>Wed, 05 May 2021 01:37:48 +0000</pubDate><guid>https://monaparty.me/blog/2021/5/10/</guid><description>NOTE: Some features are postponed. Please read https://www.monaparty.me/blog/2021/5/11/ for more details.
+Dear Monaparty funs,
+The release train 2323232 is now on boarding.
+The version of counterparty-lib is 9.5510.1.
+Key features &amp;ldquo;True&amp;rdquo; NFT assets The new object asset_group is added. And fungible flag is added to the issuance message.
+asset_group is a similar to the child part of asset_longname and bound to assets issued with not fungible flag.
+Trigger message The new object trigger is added.</description></item><item><title>Release train comes. Now onboarding.</title><link>https://monaparty.me/blog/2021/2/9/</link><pubDate>Sat, 27 Feb 2021 05:27:16 +0000</pubDate><guid>https://monaparty.me/blog/2021/2/9/</guid><description>Hello, Monaparty guys.
+We Monapaty Dev decided to enable new protocol features periodicaly.
+It is called as &amp;ldquo;Release Train&amp;rdquo; on the software engineering.
+The train departs on time and only those who are in time can board it. Similarly, only features inplemented in time are activated. We don&amp;rsquo;t postpone the departure time.
+The next train departs on the block 2323230 (mainnet), 1120000 (testnet).
+Currently there are 2 protocol changes are onboarding.</description></item><item><title>Protocol changes will come on the mainnet block 2270000</title><link>https://monaparty.me/blog/2021/2/8/</link><pubDate>Thu, 25 Feb 2021 05:48:45 +0000</pubDate><guid>https://monaparty.me/blog/2021/2/8/</guid><description>Hello, Monaparty guys.
+Some protocols on the Monaparty contract platform will be changed on the mainnet block 227000. The current estimated time is Mar 10, 2021.
+There are two changes on boarding.
+Details fee_revision_2021_1q This change increase the fee cost for issuances. Users must pay 100 times XMP asset for new asset than previous.
+After enabled this change, fees are like this.
+kind new fee (XMP) Named assets 50 Subassets 25 A-prefix assets 0 The aim of this change is to support values of Monaparty assets.</description></item><item><title>Listed on 'Awesome IPFS'</title><link>https://monaparty.me/blog/2020/11/7/</link><pubDate>Fri, 20 Nov 2020 21:33:43 +0000</pubDate><guid>https://monaparty.me/blog/2020/11/7/</guid><description>Monaparty is listed on Awesome IPFS, the catalogue that using IPFS technology.
+We&amp;rsquo;re going to launch some more services using IPFS. Please stay tuned.</description></item><item><title>How to set extend asset informaiton via IPFS</title><link>https://monaparty.me/blog/2020/11/6/</link><pubDate>Thu, 19 Nov 2020 05:05:31 +0000</pubDate><guid>https://monaparty.me/blog/2020/11/6/</guid><description>Monaparty meets IPFS From before, owners of Monaparty asset can provide extended information. The information file is written in JSON format and located to HTTP(s) server. The file can contain the link to the PNG image file.
+Since the next update, Monaparty federated node supports IPFS. The new node accepts ipfs:// style URLs. Some nodes will pin contents. Contents will be available until the last one Monaparty node is removed.</description></item><item><title>Monaparty is released under MIT License</title><link>https://monaparty.me/blog/2020/10/5/</link><pubDate>Fri, 23 Oct 2020 05:20:36 +0000</pubDate><guid>https://monaparty.me/blog/2020/10/5/</guid><description>Monaparty is a fork of Counterparty. Counterparty is licensed under MIT License. But we didn&amp;rsquo;t clarify the license of our patches.
+Finally we decided to apply our patches MIT License.
+Everyone can reuse our code under the license.
+Happy hacking,</description></item><item><title>The festa is held on mainnet block 2,145,000</title><link>https://monaparty.me/blog/2020/10/4/</link><pubDate>Sun, 18 Oct 2020 01:41:36 +0000</pubDate><guid>https://monaparty.me/blog/2020/10/4/</guid><description>(日本語は後半にあります)
+We are happy to announce this. Many new features on Monaparty will be enabled on Monacoin mainet block 2,145,000.
+Let us introduce some main features.
+All protocol changes (includes previous) are listed on our page
+dispenser It enables to sell assets in $MONA.
+Asset owner can disable this function if they want.
+bech32 address support SegWit support.
+MPMA (Multi Peer Multi Asset) send It enables users sending many kinds of assets to more than two addresses by just one message.</description></item><item><title>How to upgrade Monaparty federated node.</title><link>https://monaparty.me/blog/2020/10/03/</link><pubDate>Sat, 03 Oct 2020 06:26:43 +0000</pubDate><guid>https://monaparty.me/blog/2020/10/03/</guid><description>Hello, Monaparty node administrators.
+How about your happy Monapaty festa in autumn?
+This article describes how to upgrade your federated node.
+Why special ? &amp;ldquo;Node upgrade in fall, 2020&amp;rdquo; is a big upgrade. So you must do some more tasks than usual.
+Step by Step Uninstall older version fednode uninstall Don&amp;rsquo;t worry. Docker volumes is kept back.
+Switch your branch to monaparty and pull commits. cd fednode/ git checkout monaparty git pull Finally federated node supports monaparty (means the stable master) branch.</description></item><item><title>Service Nodes</title><link>https://monaparty.me/service/</link><pubDate>Sat, 03 Oct 2020 12:58:14 +0900</pubDate><guid>https://monaparty.me/service/</guid><description>Landing page https://www.monaparty.me/ (here)
+Counterwallet-mona Mainnet Official https://wallet.monaparty.me/ electrum-mona.org (community) https://monapa.electrum-mona.org/ Testnet Official https://wallet-testnet.monaparty.me/ electrum-mona.org (comminity) https://testnet-monapa.electrum-mona.org/ Counterblock API Mainnet Official https://counterblock.api.monaparty.me/ https://wallet.monaparty.me/_api/ electrum-mona.org (comminity) https://monapa.electrum-mona.org/_api/ Testnet Official https://counterblock-testnet.api.monaparty.me/ https://wallet.monaparty.me/_t_api/ electrum-mona.org (community) https://testnet-monapa.electrum-mona.org/_t_api/ Counterparty API Mainnet Official https://counterparty.</description></item><item><title>Extending Expiration</title><link>https://monaparty.me/blog/2019/7/1/</link><pubDate>Sat, 13 Jul 2019 01:00:00 +0000</pubDate><guid>https://monaparty.me/blog/2019/7/1/</guid><description>Some messages like order has the value when it will be expired. The default value is 15000 block. It will be 7days if blocks are added per 90 sec.
+You can send your Monaparty message with the another expiration value if you are an enginner that can call Monaparty API.
+And you can change it if you are not a software specialist.
+How to Counterwallet-mona Open your wallet on your web browser and click the setting button.</description></item><item><title/><link>https://monaparty.me/2018-06-29-crowdfunding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://monaparty.me/2018-06-29-crowdfunding/</guid><description>Monaparty クラウドファンディング実施のお知らせ Monaparty プロジェクトでは、下記の通りの背景を踏まえ、クラウドファンディングを実施します。本クラウドファンディングは、2018年7月10日時点で、2162.30688601 MONA を達成し募金終了いたしました。引き続き、下記「解決策」の実装を行っています。
+実施の目的 Monaparty のトークンエコノミー・プラットフォームとしての利用範囲を拡大し、応用アプリケーションのさらなる増加を目指します。
+現行の課題 ゲーム内トークン・電子ポイント・前払式支払手段等、仮想通貨とは無関係の価値記録として Monaparty プラットフォームを用いる場合、 日本の資金決済法に抵触する可能性をゼロとするには、下記の2点が仕様上の制約となります。
+発行者から受け取ったトークンを、他のアドレスに再送信できる。 あらゆるトークンが、組込みの分散取引所(DEX)に上場され、板取引による交換が可能である。 BTCPay メッセージにより1号仮想通貨である Monacoin でのトークン購入が可能である。 解決策 issurance メッセージを拡張することにより、既出課題となる2点について、トークン(アセット)発行者が可否を設定可能とします。
+BTCPay および DEX の利用禁止により、トークンが2号仮想通貨であることを否認することが可能となります。
+発行者から受け取ったトークンの再送信不可により、会員証や入場証など、発行者の承認なく価値移転することが望ましくない権利をトークンとして実装できます。 (NEM では untransferrable mosaic として知られている機能です)
+期間、目標額 目標額: 40万JPY相当額
+2018年6月29日から同7月10日までを概ねの期限とします。 このファンディングは、いわゆる&amp;quot;ダイレクト型&amp;quot;です。7月10日時点で目標額に満たなかった場合でも返却はされません。 予めご承知おきください。
+方法 モナコインの場合 monacoin:MBp8gXzrEAfn1vVC5pmcrxARoERBH48rqP へご送金ください。本クラウドファンディングは、2018年7月10日時点で、2162.30688601 MONA を達成いたしました。 上記アドレスへの送金を頂いた場合、次回 Monaparty 関連クラウドファンディングが行われた場合にご送金額を充当いたします。
+その際、送金元は Monappy や 交換所ではなく、Counterwallet-monaや「もにゃ」等の Monaparty 対応のウォレットからご送金頂ければと存じます。(強制ではありません。控えめなお願いです。)
+現金の場合 マイクロファンディングのサービスを近日中にご案内します。(現在のところ polca の利用を予定しています)現金での募集は行いませんでした。</description></item><item><title/><link>https://monaparty.me/burn-event/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://monaparty.me/burn-event/</guid><description>Proof of Burn の実施について Monaparty の運用開始に伴い、下記の予定で Proof Of Burn を実施いたします。
+期間 条件 Monacoin ブロック番号 備考 開始 1166000 2017年11月19日頃 終了 1179440 14日間程度 ブロック承認には時間の揺れがあり、時間を正確に見積もるのは技術的に困難です。 時刻や期間が見込みより前後した場合でも、ブロック番号への到達で開始と終了の処理が行われます。 予めご了承ください。
+期間外の Burn の無効 上記 Burn 期間外の Burn は、後述する開発チームの 1MONA Burn を除き、(エラーで弾かれるはずですが)仮に成功したとしても後日無効化されます。 予めご了承ください。
+生成量 1MONA の Burn で得られる XMP の量は、Counterparty で BTC → XCP で行われたのと同じ算出式に従います。 具体的には、Burn メッセージを含むトランザクションが採り込まれたブロック番号を x、Burn した MONA の数量を y とするとき、下記の式で決定されます。
+得られるXMPの量 = (1000 + (500 × ((1179440 - x) ÷ (1179440 - 1166000)))) × y 簡易に要約すると下記のようになります。</description></item><item><title/><link>https://monaparty.me/how-to-token-swap-old/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://monaparty.me/how-to-token-swap-old/</guid><description>注意: 本ページの記載内容は古いので 最新の情報をご参照ください。
+MONAPARTY から XMP へのトークンスワップ手順 下記の手順に従っていただくことにより、Counterparty 上の ICO トークンである MONAPARTY から、Monaparty の基軸トークンである XMP が配布されます。
+Counterwallet-mona でウォレットを開設する https://wallet.monaparty.me/ へアクセスし、ウォレットを開設してください。
+ウォレットのアドレスをメモする 残高一覧にある Monacoin アドレスをメモしてください。最終的にこのアドレスに XMP が送金されます。
+注意: 必ず Counterwallet-mona のアドレスを記録してください。この手順を省いて Electrum-mona, Monappy, tipmona, AskMona, 仮想通貨取引所などで割り当てられている Monacoin アドレスを流用した場合には、配布される XMP が GOX する可能性があります
+Counterwallet-mona のウインドウを閉じる この作業は必須ではないですが、次作業以降は Monaparty ではなく Counterparty での作業となります。 混乱を防ぐために、Counterwallet-mona のウインドウは閉じることをお勧めします。 頭を切り替えるため、一服するのもお薦めです。
+Counterparty のアドレスと Monaparty のアドレスを紐付ける MONAPARTY トークンを保存してあるウォレットを開く https://xcpwallet.monaparty.me/ または Counterparty 公式の Counterwallet を開き、MONAPARTY トークンを保存しているニーモニックを使ってログインしてください。
+Monacoin アドレスをブロードキャストする MONAPARTY トークンを保持しているビットコインアドレスの項目の右端にあるプルダウンメニューを選択し「Feed Broadcast」を選択してください。
+ダイアログボックスが表示されますので、Text の項目に上記でメモした Monacoin アドレスを入力してください。 その他の項目は特に変更する必要はありません。「Broardcast」ボタンを押してください。</description></item><item><title/><link>https://monaparty.me/how-to-token-swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://monaparty.me/how-to-token-swap/</guid><description>MONAPARTY から XMP へのトークンスワップ手順 下記の手順に従っていただくことにより、Counterparty 上の ICO トークンである MONAPARTY から、Monaparty の基軸トークンである XMP が配布されます。
+Counterwallet-mona でウォレットを開設する https://wallet.monaparty.me/ へアクセスし、ウォレットを開設してください。
+ウォレットのアドレスをメモする 残高一覧にある Monacoin アドレスをメモしてください。最終的にこのアドレスに XMP が送金されます。
+注意: 必ず Counterwallet-mona のアドレスを記録してください。この手順を省いて Electrum-mona, Monappy, tipmona, AskMona, 仮想通貨取引所などで割り当てられている Monacoin アドレスを流用した場合には、配布される XMP が GOX する可能性があります
+Counterwallet-mona のウインドウを閉じる この作業は必須ではないですが、次作業以降は Monaparty ではなく Counterparty での作業となります。 混乱を防ぐために、Counterwallet-mona のウインドウは閉じることをお勧めします。 頭を切り替えるため、一服するのもお薦めです。
+MONAPARTY トークンを burn する この burn は XMP を生成させる burn とは異なりますので、Monaparty の burn 開始以前に作業して頂いて構いません。
+ブロードキャストの完了を確認できましたら、MONAPARTY を Bitcoin アドレスへ送金します。
+MONAPARTY 残高表示の脇にあるプルダウンメニューから「send」を選びダイアログを表示させます。
+送金先 Bitcoin アドレスには「1MonapartyMMMMMMMMMMMMMMMMMQ3QJNm」を入力します。 送金額は別段の理由がなければ、MAX ボタンをおして全額を指定します。</description></item><item><title/><link>https://monaparty.me/token-swap/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://monaparty.me/token-swap/</guid><description>MONAPARTY → XMP トークンスワップについて 2017年6月上旬に開催した ICO での宣言に従い、MONAPARTY (Counterparty) から XMP (Monaparty) へのトークンスワップを実施します。
+交換の時期や方法 2017年11月10日現在、検討中です。2017年11月後半のなるべく早い時期に交換受付開始とするスケジュールで進めております。 (円滑な PoB を実施するため、PoB 期間完了後になる可能性があります。)
+交換レート 後述する積算根拠に基づき、MONAPARTY → XMP の交換レートを下記のように定めます。
+1[MONAPARTY] == 2730320.72307[XMP] 積算根拠 ICO 達成時点の資産価値 MONAPARTY トークンは市場に存在しませんので、ICO 時のレート 1[MONAPARTY]-10[XCP] から 1,000[XCP]を積算の土台として使います。
+ICO期間は 2017年6月2日〜同6日まででその間の XCP に値動きはありましたが、 代表値として Zaif.jp の XCP/JPY の日足チャートに WMA(3, high) を施した 6月4日の値である 1,497[JPY] を採ります。
+そこに ICO で集まった 1,000[XCP] を乗じ、 1,497,000[JPY] を ICO 調達額と見做します。
+今回の呼びかけは AskMona を用いましたので ICO 参加者は基本的にモナコイナーであると想定できますし通常の PoB ではモナコインにする必要があります。 よって ICO 前の MONAPARTY トークンはモナコインであったと見做し、 Zaif.</description></item><item><title>Monaparty</title><link>https://monaparty.me/ico/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://monaparty.me/ico/</guid><description>我々は、Monacoin のブロックチェーンを用いたトークン経済圏を整備します。 トークンの価値記録システムとして、Bitcoin ブロックチェーンを用いた Counterparty を応用します。 我々は、新しく整備するトークン経済圏を Monaparty と呼びます。
+トークン生成の計画 Monaparty の技術的支柱となる Counterparty では、Proof of Burn と呼ばれる民主的な方法で基軸トークンとなる XCP が生成されました。 Monaparty では、トークン配布による ICO と Proof of Burn のハイブリッドで基軸トークンとなる XMP を生成する予定です。
+Monaparty では、初回の Burn のみ、2回目以降の Burn とは異なったレートで XMP を生成します。 初回の Burn で生成された XMP は、ICO に応じた初期投資者への配当として、投資比率に応じて分配されます。
+ICO (目標額達成いたしました) Monaparty の初期開発費用を調達するため、我々は Counterparty トークン MONAPARTY と Counterparty の分散取引所システム(DEX)を用いた ICO (Initial Coin Offering == 暗号通貨を用いた資金調達)を実施いたしました。
+項目 期間 2017年6月30日まで到達目標額達成により終了いたしました ICO 用トークン名 MONAPARTY 数量 100枚 調達目標額 1,000 XCP 交換場所 Counterparty DEX 調達資金の使徒 Counterparty Federated Node に相当する機能の Monacoin への対応 ICO に関する FAQ [Q] ICO の元本は保証されますか?</description></item></channel></rss>

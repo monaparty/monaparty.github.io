@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>updates on Monaparty Portal | Crypto asset platform based on Counterparty, Monacoin</title><link>https://monaparty.me/tags/updates/</link><description>Recent content in updates on Monaparty Portal | Crypto asset platform based on Counterparty, Monacoin</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 12 Dec 2021 09:32:15 +0000</lastBuildDate><atom:link href="https://monaparty.me/tags/updates/index.xml" rel="self" type="application/rss+xml"/><item><title>A Helm chart for IPFS-cluster released</title><link>https://monaparty.me/blog/2021/12/15/</link><pubDate>Sun, 12 Dec 2021 09:32:15 +0000</pubDate><guid>https://monaparty.me/blog/2021/12/15/</guid><description>Hello Monaparty folks,
+We&amp;rsquo;re happy to release new functionariry for the Monaparty eco-system.
+We&amp;rsquo;ve published a Helm chart for the high availability IPFS cluster.
+Currently it&amp;rsquo;s on a &amp;ldquo;preview&amp;rdquo; state. But we hope it will work fine almost all envs.
+The chart itself doesn&amp;rsquo;t any pins to impotant content for Monaparty. Some more hacks are required. We&amp;rsquo;re working to release a Monaparty integration such as Countertable.
+Please feel free to send any requests for this new subproject via GitHub.</description></item><item><title>indexd-server is updated to 0.0.2</title><link>https://monaparty.me/blog/2021/11/14/</link><pubDate>Thu, 18 Nov 2021 00:00:00 +0000</pubDate><guid>https://monaparty.me/blog/2021/11/14/</guid><description>Monaparty version of indexd-server was updated to 0.0.2.
+This includes an usability bug fix.
+https://github.com/monaparty/indexd-server/pull/2
+This was applied both of the develop branch and the master branch.
+For wallet users There is no need to action. Please wait until servers are updated.
+For node maintainers Please upgrade your indexd-servers like this.
+fednode rebuild indexd fednode rebuild indexd-testnet In this time, you don&amp;rsquo;t need to run fednode update.
+There is no reparse job running.</description></item></channel></rss>
